@@ -2,7 +2,7 @@
 
  #####  
 
- ##### RDB(Relational Database)
+ ### RDB(Relational Database)
 
 관계형 데이터 모델에 기초를 둔 데이터베이스로 관계형 데이터모델이란 데이터를 구성하는데 필요한 방법 중 하나로 모든 데이터를 2차원 테이블 형태로 표현하며 관계형 데이터 모델의 개념은 표현 개체의 외부개념 관례를 적용한 것으로 데이터 간의 상관관계에서 개체간의 관계를 표현한 것이다.
 
@@ -12,7 +12,7 @@
 
 
 
-##### RDBMS(Relational Database Management System)
+### RDBMS(Relational Database Management System)
 
 RDBMS는 관계형 데이터베이스를 생성하고 수정하고 관리할 수 있는 소프트웨어
 
