@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  font-size: 30px;
+  text-align: center;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+#main #contents {
+  min-height: 500px;
+  background-color: #00ffff;
+  margin-right: 10px;
+}
+
+#main #sidebar {
+  min-height: 500px;
+  background-color: #00bfff;
+}
+#footer {
+  margin-top: 10px;
+  background-color: #00bfff;
+}
+
+@media (max-width: 600px) {
+  /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+  #main {
+    display: block;
+  }
+
+  #main #contents {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+  #main #sidebar {
+    min-height: 0;
+  }
+}
