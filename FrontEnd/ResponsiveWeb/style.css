@@ -14,17 +14,17 @@ div {
 
 #main #contents {
   min-height: 500px;
-  background-color: #00ffff;
+  background-color: black;
   margin-right: 10px;
 }
 
 #main #sidebar {
   min-height: 500px;
-  background-color: #00bfff;
+  background-color: black;
 }
 #footer {
   margin-top: 10px;
-  background-color: #00bfff;
+  background-color: black;
 }
 
 @media (max-width: 600px) {
