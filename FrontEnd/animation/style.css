@@ -1,0 +1,40 @@
+htmlm, body{
+  background: #2f2f2f;
+  margin: 0;
+  padding: 0;
+}
+#mouse{
+  position: absolute;
+  width: 60px;
+  height:100px;
+  border:5px solid #fff;
+  border-radius: 40px;
+  left: 50%;
+  top: 50%;
+  margin-top:-50px;
+  margin-left:-30px;
+}
+
+#mouse::after{
+  content: '';
+  position: absolute;
+  width:5px;
+  height: 5px;
+  background: #fff;
+  left: 50%;
+  top: 20px;
+  margin-left:-8px;
+  border-radius: 50%;
+  animaiton: mouse 2s infinite;
+
+}
+@keyframes mouse{
+  0%{
+    top:15px;
+    opacity: 1;
+  }
+  100%{
+    top:80px;
+    opacity:0;
+  }
+}
