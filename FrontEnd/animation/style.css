@@ -1,4 +1,4 @@
-htmlm, body{
+html, body{
   background: #2f2f2f;
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ htmlm, body{
   top: 20px;
   margin-left:-8px;
   border-radius: 50%;
-  animaiton: mouse 2s infinite;
+  animation: mouse 2s infinite;
 
 }
 @keyframes mouse{
